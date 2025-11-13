@@ -1,10 +1,3 @@
-# SQL Project
-
-Completed?: No
-Estimated Time (h): 1
-Select: Lab
-Week: Week 2
-
 # Digital Marketing Strategy Optimisation
 
 ## Dataset
@@ -57,9 +50,13 @@ First, we'll explore daily web traffic to gain insights into overall website per
 
 *Note: For simplicity, our analysis will use UTC time for all timestamps, avoiding the complexities of time zone conversions and Daylight Saving Time adjustments.*
 
-![WED_table.png](WED_table.png)
+<p align="center">
+  <img src="WED_table.png" width="500">
+</p>
 
-![websiteEngagementbyDay.png](websiteEngagementbyDay.png)
+<p align="center">
+  <img src="websiteEngagementbyDay.png" width="500">
+</p>
 
 **Observations:**
 
@@ -68,7 +65,9 @@ First, we'll explore daily web traffic to gain insights into overall website per
 
 To better illustrate this trend, we'll extract the name of the day from the visit date.
 
-![websiteEngagementbyDayNAME_table.png](websiteEngagementbyDayNAME_table.png)
+<p align="center">
+  <img src="websiteEngagementbyDay.png" width="500">
+</p>
 
 - Pattern: **Peaking mid-week**, particularly on Tuesdays and Wednesdays, and then **declining over the weekend**
 
@@ -78,7 +77,9 @@ To better illustrate this trend, we'll extract the name of the day from the visi
 
 *How is the **Conversion Rate by Weekday?*** 
 
-![conversionByWeekday.png](conversionByWeekday.png)
+<p align="center">
+  <img src="conversionByWeekday.png" width="500">
+</p>
 
 **Observations:**
 
@@ -104,11 +105,11 @@ Is that something due to **OBJECTIVE reasons** e.g. customers are more intereste
 
 —> Reveal variations in conversion rates and visits across desktops, tablets, and smartphones
 
-![visitsbyDevice.png](visitsbyDevice.png)
+<div style="display: flex; justify-content: center;">
+  <img src="visitsbyDevice.png" width="400">
+  <img src="RevenuebyDevice.png" width="400">
+</div>
 
-![RevenuebyDevice.png](RevenuebyDevice.png)
-
-.
 
 **Observation:**
 
@@ -124,7 +125,9 @@ Is that something due to **OBJECTIVE reasons** e.g. customers are more intereste
 
 Next, we’ll examine website retention, specifically focusing on whether users are new or returning. This will provide insights into user loyalty and the effectiveness of strategies in encouraging repeat visits. Typically, having around 50-70% new users and 30-50% returning users is considered a good balance.
 
-![WRetention_table.png](WRetention_table.png)
+<p align="center">
+  <img src="WRetention_table.png" width="500">
+</p>
 
 **Observation:**
 
@@ -138,7 +141,9 @@ Next, we’ll examine website retention, specifically focusing on whether users 
 
 This measure is key as it indicates the proportion of visitors who exit the site after viewing only one page and is often used to evaluate the effectiveness of acquisition strategies. 
 
-![WAcquisition_table.png](WAcquisition_table.png)
+<p align="center">
+  <img src="WAcquisition_table.png" width="500">
+</p>
 
 **Observation:**
 
@@ -146,7 +151,9 @@ This measure is key as it indicates the proportion of visitors who exit the site
 
 —> *Let’s look at this bounce rate by Channel*
 
-![WAcquisitionbyChannel.png](WAcquisitionbyChannel.png)
+<p align="center">
+  <img src="WAcquisitionbyChannel.png" width="500">
+</p>
 
 **Observations:**
 
@@ -168,7 +175,9 @@ To give us a fuller **view of each channel's performance,** we'll next include *
 
 → Encompassing not only traffic volume but also user **engagement quality, revenue generation efficiency, and overall conversion impact**
 
-![WARevenuebyChanne_table.png](WARevenuebyChanne_table.png)
+<p align="center">
+  <img src="WARevenuebyChanne_table.png" width="500">
+</p>
 
 **Observations:**
 
@@ -179,7 +188,9 @@ To give us a fuller **view of each channel's performance,** we'll next include *
 - **Paid Search and Display**, both with 34% bounce rates, demonstrate moderate visitor retention but require improved targeting for better conversions.
 - **Affiliates**, with the ***highest bounce rate*** and ***lowest conversions →*** need a thorough evaluation of partner quality.
 
-![timeSpentvsRevenue.png](timeSpentvsRevenue.png)
+<p align="center">
+  <img src="timeSpentvsRevenue.png" width="500">
+</p>
 
 **Observations:**
 
